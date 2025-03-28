@@ -1,0 +1,261 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.header-imob {
+    width: 100%;
+    height: 75px;
+    background-color: #414a51;
+    color: white;
+    z-index: 100;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.logo h2 {
+    font-size: 20px;
+}
+
+.logo span {
+    font-size: 10px;
+    font-weight: normal; 
+    display: block; 
+}
+
+.creci-title {
+    margin-left: 15px;   
+}
+
+.nav-links a {
+    color: white;
+    display: inline-flex;
+    margin-left: 30px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.nav-links>i {
+    font-size: 40px;
+}
+
+#nav-links-lista i {
+    margin-right: 15px;
+}
+
+
+#nav-links-lista {
+    display: none;
+    background-color: #4c4c4c;
+    width: 100%;
+    left: 0;
+    top: 70px;
+    position: absolute;
+}
+
+.login-registro {
+    width: 100%;
+    margin: 0px 0px 20px -10px;
+}
+
+.login-registro a {
+    display: inline-flex;
+    padding: 10px;
+    width: 110px;
+    font-size: 18px;
+    background-color: #414a51;
+    border: 1px solid white;
+}
+
+.login-registro a:hover {
+    background-color: #687178;
+    color: white;
+}
+
+.main-cadastro {
+    height: calc(1001px - 60px);
+    width: 100%;
+}
+
+.display-6 {
+    font-size: 30px;
+    width: 100%;
+}
+
+.form-cadastro, .form-login {
+    width: 500px;
+    height: auto;
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1); 
+    padding-bottom: 30px;
+    opacity: 0.9;
+    background-color: #f4f4f46e;
+    color: white;
+}
+
+.form-cadastro form, .form-login form {
+    width: 85%;
+}
+
+.form-cadastro label, .form-login label {
+    width: 100%;
+    margin-top: 6px;
+}
+
+.form-cadastro input, .form-login input {
+    padding-left: 5px;
+    width: 100%;
+    background-color: #ffffffbd;
+    height: 35px;
+}
+
+.form-cadastro button, .form-login button, 
+.form-cadastro-imoveis button, .form-container button {
+    background-color: #373737a7;
+    color: white;
+    width: 100%;
+    height: 35px;
+}
+
+.form-cadastro button:hover, .form-login button:hover, 
+.form-cadastro-imoveis button:hover, .form-container button:hover {
+    background-color: #707070a7;
+}
+
+.bg-form-cadastro, .bg-form-login, .bg-titulo-geral {
+    background: #2c416c url('../imagens/form-ceps-bg.png') no-repeat center top;
+}
+
+.login-registro-ponte {
+    font-size: 13px;
+    margin-bottom: -20px;
+}
+
+.login-registro-ponte a {
+    color: white;
+}
+
+.titulo {
+    height: 400px;
+    width: 100%;
+}
+
+.titulo, .titulo h1 {
+    padding-top: 70px;
+    width: 100%;
+    font-size: 35px;
+    color: white;
+}
+
+.titulo p {
+    margin-top: -180px;
+    font-size: 13px;
+}
+
+.imoveis-area {
+    width: 100%;
+}
+
+.imoveis-container {
+    max-width: 1300px;
+}
+
+.imoveis img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imoveis {
+    width: 90%;
+    max-width: 390px;
+    max-height: 480px;
+    margin: 0px 0px 30px 0px;
+    border: 1px solid black;
+    background-color: #ebebeb;
+    border-radius: 15px;
+}
+
+.local-tipo-servico h3 {
+    font-size: 18px;
+}
+
+.local-tipo-servico p {
+    font-size: 15px;
+}
+
+.preco-cod {
+    width: 95%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-adicionais {
+    height: 50px;
+    background-color: #afafaf;
+    border-radius: 0px 0px 15px 15px;
+    color: #e6e6e6;
+}
+
+.info-adicionais p {
+    padding-top: 13px;
+}
+
+.form-cadastro-imoveis form {
+    width: 90%;
+    max-width: 900px;
+    border: 1px solid black;
+    background-color: #d0d0d067;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-cadastro-imoveis>form button {
+    width: 100%;
+}
+
+.form-cadastro label {
+    font-weight: bold;
+}
+
+.form-cadastro button {
+    width: 100%;
+}
+
+.imoveis-area {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-container form {
+    max-width: 600px;
+}
+
+.form-grupo select {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-grupo button {
+    margin-top: 5px;
+}
+
+footer {
+    font-size: 13px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: #373737;
+}
