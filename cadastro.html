@@ -15,8 +15,8 @@
         <section class="form-cadastro mt-5 d-flex flex-wrap justify-content-around align-items-center">
             <h1 class="text-center display-6 mt-4 mb-4">Registre-se</h1>
 
-            <form onsubmit="event.preventDefault()">
-                <div class="form-esquerda">
+            <form onsubmit="registrarCadastro()">
+                    <div class="form-esquerda">
                     <label for="nome">Nome completo:</label>
                     <input id="nome" type="text" name="nome" placeholder="Ex: Marcos da Silva" required>
                     <label for="email">Email:</label>
@@ -29,13 +29,13 @@
             
                 <div class="form-direita">
                     <label for="rua">Rua:</label>
-                    <input id="rua" type="text" name="rua" disabled>
+                    <input id="rua" type="text" name="rua" disabled required>
                     <label for="bairro">Bairro:</label>
-                    <input id="bairro" type="text" name="bairro" disabled>
+                    <input id="bairro" type="text" name="bairro" disabled required>
                     <label for="cidade-uf">Cidade:</label>
-                    <input id="cidade-uf" type="text" name="cidade" disabled>
+                    <input id="cidade-uf" type="text" name="cidade" disabled required>
                     <label for="senha">Crie sua senha:</label>
-                    <input id="senha" type="text" name="estado">
+                    <input id="senha" type="text" name="senha" required>
                 </div>
                 <button class="mt-4" type="submit">Registrar-se</button>
             </form>
