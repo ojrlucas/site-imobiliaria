@@ -11,6 +11,12 @@
     z-index: 100;
 }
 
+.table-bg {
+    background-color: #373737;
+    color: white;
+    text-align: center;
+}
+
 .logo img {
     width: 80px;
 }
@@ -75,7 +81,7 @@
 }
 
 .main-cadastro {
-    height: calc(1001px - 60px);
+    height: calc(100vh - 60px);
     width: 100%;
 }
 
@@ -255,6 +261,7 @@ footer {
     font-size: 13px;
     bottom: 0;
     width: 100%;
+    position: fixed;
     height: 60px;
     color: white;
     background-color: #373737;

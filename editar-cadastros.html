@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Cadastros - Imobiliária LucasJr</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-media.css">
+
+</head>
+<body>
+    <main>
+        <section class="titulo d-flex justify-content-center align-items-center bg-titulo-geral flex-wrap">
+            <h1 class="text-center">LucasJr Imóveis</h1>
+            <p class="text-center">Aqui, você encontra o imóvel certo para você!</p>
+        </section>
+
+        <section class="imoveis-area d-flex justify-content-center">
+            <div class="imoveis-container d-flex flex-wrap justify-content-around">
+                <h2 class="text-center w-100 mt-5 mb-4">Editar Cadastros</h2>
+                <form id="cadastro-edicao-Form" onsubmit="registrarCadastro(event)">
+                    <div class="row mb-3">
+                        <div class="col-md-6"><input type="text" id="nome-editar" class="form-control" placeholder="Nome" required></div>
+                        <div class="col-md-6"><input type="email" id="email-editar" class="form-control" placeholder="Email" required></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6"><input type="text" id="fone-editar" class="form-control" placeholder="Telefone (11 dígitos)" required></div>
+                        <div class="col-md-6"><input type="text" id="cep-editar" class="form-control" placeholder="CEP" required onblur="loadLogradouro()"></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4"><input type="text" id="rua-editar" class="form-control" placeholder="Rua" required></div>
+                        <div class="col-md-4"><input type="text" id="bairro-editar" class="form-control" placeholder="Bairro" required></div>
+                        <div class="col-md-4"><input type="text" id="cidade-uf-editar" class="form-control" placeholder="Cidade/UF" required></div>
+                    </div>
+                    <button type="submit" id="btnSalvar" class="btn btn-primary">Salvar Atualizações</button>
+                </form>
+        
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-bg">
+                            <tr>
+                                <th>Nome</th>
+                                <th>Email</th>
+                                <th>Fone</th>
+                                <th>CEP</th>
+                                <th>Rua</th>
+                                <th>Bairro</th>
+                                <th>Cidade / UF</th>
+                                <th>Ações</th> 
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-cadastros">
+                            <!-- Dados inseridos via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="javascript/funcionamento.js"></script>
+    <script src="javascript/nav-header.js"></script></body>
+</html>
