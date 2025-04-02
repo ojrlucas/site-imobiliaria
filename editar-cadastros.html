@@ -20,21 +20,21 @@
         <section class="imoveis-area d-flex justify-content-center">
             <div class="imoveis-container d-flex flex-wrap justify-content-around">
                 <h2 class="text-center w-100 mt-5 mb-4">Editar Cadastros</h2>
-                <form id="cadastro-edicao-Form" onsubmit="registrarCadastro(event)">
+                <form id="cadastro-edicao-Form" onsubmit="editarCadastro(event)">
                     <div class="row mb-3">
-                        <div class="col-md-6"><input type="text" id="nome-editar" class="form-control" placeholder="Nome" required></div>
-                        <div class="col-md-6"><input type="email" id="email-editar" class="form-control" placeholder="Email" required></div>
+                        <div class="col-md-6"><input type="text" id="nome" class="form-control" placeholder="Nome" required disabled></div>
+                        <div class="col-md-6"><input type="email" id="email" class="form-control" placeholder="Email" required disabled></div>
                     </div>
                     <div class="row mb-3">
-                        <div class="col-md-6"><input type="text" id="fone-editar" class="form-control" placeholder="Telefone (11 dígitos)" required></div>
-                        <div class="col-md-6"><input type="text" id="cep-editar" class="form-control" placeholder="CEP" required onblur="loadLogradouro()"></div>
+                        <div class="col-md-6"><input type="text" id="fone" class="form-control" placeholder="Telefone (11 dígitos)" required disabled></div>
+                        <div class="col-md-6"><input type="text" id="cep" class="form-control" placeholder="CEP" required onblur="loadLogradouro()" disabled></div>
                     </div>
                     <div class="row mb-3">
-                        <div class="col-md-4"><input type="text" id="rua-editar" class="form-control" placeholder="Rua" required></div>
-                        <div class="col-md-4"><input type="text" id="bairro-editar" class="form-control" placeholder="Bairro" required></div>
-                        <div class="col-md-4"><input type="text" id="cidade-uf-editar" class="form-control" placeholder="Cidade/UF" required></div>
+                        <div class="col-md-4"><input type="text" id="rua" class="form-control" placeholder="Rua" required disabled></div>
+                        <div class="col-md-4"><input type="text" id="bairro" class="form-control" placeholder="Bairro" required disabled></div>
+                        <div class="col-md-4"><input type="text" id="cidade-uf" class="form-control" placeholder="Cidade/UF" required disabled></div>
                     </div>
-                    <button type="submit" id="btnSalvar" class="btn btn-primary">Salvar Atualizações</button>
+                    <button type="submit" id="btnSalvar" class="btn btn-primar mb-5 w-100">Salvar Atualizações</button>
                 </form>
         
                 <div class="table-responsive">

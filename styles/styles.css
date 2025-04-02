@@ -257,6 +257,15 @@
     margin-top: 5px;
 }
 
+.btn-primar {
+    background-color: #4c4c4c;
+    color: white;
+}
+
+.btn-primar:hover {
+    background-color: #4b4b4ba0;
+}
+
 footer {
     font-size: 13px;
     bottom: 0;
