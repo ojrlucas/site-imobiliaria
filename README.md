@@ -4,7 +4,7 @@ Este repositório contém o desenvolvimento de um site de imobiliária, criado c
 
 ## 📸 Demonstração
 
-![Demonstração do Projeto](https://i.postimg.cc/ZRb9Vkxs/Captura-de-tela-2025-04-30-014721.png)
+![Demonstração do Projeto](https://i.postimg.cc/K8DPDh6w/Captura-de-tela-2025-04-30-015855.png)
 
 ## 🔧 Tecnologias Utilizadas
 
