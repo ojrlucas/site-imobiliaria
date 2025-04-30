@@ -23,10 +23,8 @@ Este repositório contém o desenvolvimento de um site de imobiliária, criado c
 ├── javascript/                  # Arquivos JavaScript para funcionalidades dinâmicas
 ├── styles/                      # Folhas de estilo CSS personalizadas
 ├── alugar.html                  # Página para listagem de imóveis para alugar
-├── cadastrar-imovel.html        # Página para formulário de cadastro de novos imóveis
 ├── cadastro.html                # Possível página de cadastro de usuários
 ├── comprar.html                 # Página para listagem de imóveis à venda
-├── editar-cadastros.html        # Página para edição de cadastros (de imóveis ou usuários)
 ├── footer.html                  # Componente de rodapé reutilizável
 ├── header.html                  # Componente de cabeçalho reutilizável
 ├── index.html                   # Página inicial do site
